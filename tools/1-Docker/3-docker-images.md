@@ -13,7 +13,7 @@ Not: **Image**, **Docker image**, **container image** ve **OCI image** terimleri
 
 ### 2. Benzetmelerle İmaj Kavramı
 
-Yazar, imajı farklı disiplinlerden gelenler için iki şekilde somutlaştırıyor:
+Imaj, farklı disiplinlerden gelenler için iki şekilde somutlaştırılır:
 
 * **Sistem Yöneticileri İçin (VMware):** İmajlar, **VM template**'lerine (şablonlarına) benzer. Şablon durdurulmuş bir sanal makine gibidir; imaj da durdurulmuş bir konteynır gibidir.
 
