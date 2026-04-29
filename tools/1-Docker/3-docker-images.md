@@ -131,7 +131,7 @@ Modern registry'lerin çoğu iki temel standardı destekler:
 
 ### 3. Hiyerarşik Yapı (Registry > Repository > Image)
 
-Yazar, registry yapısını bir kütüphaneye benzetebileceğimiz şu hiyerarşiyle açıklıyor:
+Registry yapısı bir kütüphaneye benzetebileceğimiz şu hiyerarşiyle açıklanır:
 
 1. **Registry (Kütüphane):** En üst katman. (Örn: Docker Hub)
 2. **Repository (Kitaplık):** Belirli bir uygulamanın tüm sürümlerini içeren bölüm. (Örn: `redis` veya `nginx` klasörü)
@@ -234,7 +234,7 @@ Docker'da bir imajın (fiziksel dosya bütünlüğü) birden fazla ismi olabilir
 
 ### 1. Aynı İmaj ID, Farklı İsimler
 
-Yazarın verdiği örneği incelediğimizde:
+Verilen örneği incelediğimizde:
 
 * `nigelpoulton/tu-demo:latest` -> Image ID: `b4210d0aa52f`
 * `nigelpoulton/tu-demo:v1`     -> Image ID: `b4210d0aa52f`
@@ -254,8 +254,6 @@ Bu örnek, daha önce yapılan uyarıyı kanıtlıyor: **`latest` etiketi her za
 ---
 
 **Özetle:** Bir imajın kaç tane ismi (etiketi) olduğu önemli değildir; asıl kimliği **Image ID**'sidir. `latest` ismine asla körü körüne güvenmemeli, her zaman Image ID veya spesifik versiyon numaralarını kontrol etmelisiniz.
-
-Yazarın bu bölümde paylaştığı tüm teknik detayları, komut çıktılarını ve kritik uyarıları kapsayan **eksiksiz** özeti aşağıda bulabilirsin:
 
 ---
 
